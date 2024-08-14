@@ -10,7 +10,6 @@ const Search = ({ searchItem, setSearchItem }) => {
         value={searchItem}
         onChange={(e) => setSearchItem(e.target.value)}
       />
-      <button className="search">Search</button>
     </div>
   );
 };

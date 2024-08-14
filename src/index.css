@@ -151,9 +151,7 @@ input[type="text"] {
   font-size: .8rem;
 }
 
-.search:hover{
-  color: orangered;
-}
+
 .searchbar{
   border-radius: 10px;
 }
