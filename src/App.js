@@ -47,7 +47,9 @@ function App() {
       <Header />
       <Search searchItem={searchItem} setSearchItem={setSearchItem} />
       <Content
-        items={items.filter((item) => item.text.includes(searchItem))}
+        items={items.filter((item) =>
+          item.text.toLowerCase().includes(searchItem.toLowerCase())
+        )}
         handleClick={handleClick}
         handleAdd={handleAdd}
         handleDel={handleDel}
