@@ -5,7 +5,10 @@ import { useState } from "react";
 import Search from "./Search";
 
 function App() {
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem("todo")));
+  // Initialize items with an empty array if localStorage is null
+  const [items, setItems] = useState(
+    JSON.parse(localStorage.getItem("todo")) || []
+  );
 
   const [newItemText, setNewItemText] = useState("");
 
@@ -44,7 +47,7 @@ function App() {
       <Header />
       <Search searchItem={searchItem} setSearchItem={setSearchItem} />
       <Content
-        items={items}
+        items={items.filter((item) => item.text.includes(searchItem))}
         handleClick={handleClick}
         handleAdd={handleAdd}
         handleDel={handleDel}

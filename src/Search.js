@@ -6,7 +6,8 @@ const Search = ({ searchItem, setSearchItem }) => {
       <input
         className="searchbar"
         type="text"
-        placeholde="Search..."
+        placeholder="Search..."
+        value={searchItem}
         onChange={(e) => setSearchItem(e.target.value)}
       />
       <button className="search">Search</button>
