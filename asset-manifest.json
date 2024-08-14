@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Abdul-Akram/ToDoList-React.git/static/css/main.f26d84e7.css",
-    "main.js": "/Abdul-Akram/ToDoList-React.git/static/js/main.82f23e6a.js",
-    "static/js/453.37753ddd.chunk.js": "/Abdul-Akram/ToDoList-React.git/static/js/453.37753ddd.chunk.js",
-    "index.html": "/Abdul-Akram/ToDoList-React.git/index.html",
-    "main.f26d84e7.css.map": "/Abdul-Akram/ToDoList-React.git/static/css/main.f26d84e7.css.map",
-    "main.82f23e6a.js.map": "/Abdul-Akram/ToDoList-React.git/static/js/main.82f23e6a.js.map",
-    "453.37753ddd.chunk.js.map": "/Abdul-Akram/ToDoList-React.git/static/js/453.37753ddd.chunk.js.map"
+    "main.css": "/ToDoList-React/static/css/main.f26d84e7.css",
+    "main.js": "/ToDoList-React/static/js/main.8d41c5a2.js",
+    "static/js/453.37753ddd.chunk.js": "/ToDoList-React/static/js/453.37753ddd.chunk.js",
+    "index.html": "/ToDoList-React/index.html",
+    "main.f26d84e7.css.map": "/ToDoList-React/static/css/main.f26d84e7.css.map",
+    "main.8d41c5a2.js.map": "/ToDoList-React/static/js/main.8d41c5a2.js.map",
+    "453.37753ddd.chunk.js.map": "/ToDoList-React/static/js/453.37753ddd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f26d84e7.css",
-    "static/js/main.82f23e6a.js"
+    "static/js/main.8d41c5a2.js"
   ]
 }
