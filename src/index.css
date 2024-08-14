@@ -1,13 +1,159 @@
-body {
+body,
+#root {
+  min-height: 100%;
   margin: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  min-height: 90%;
+  width: 80%;
+  border: 2px solid #282c34;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+header,
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  /* Adjusted for better responsiveness */
+}
+
+.content {
+  background-color: #3a3f4732;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #282c343e;
+  margin: 1rem auto;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: #3a3f47;
+}
+
+.content ul li input[type="checkbox"] {
+  transform: scale(200%);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+label {
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 2rem;
+  z-index: 1;
+}
+
+button:hover {
+  color: rgb(194, 8, 8);
+}
+
+button:focus,
+button:active {
+  outline-style: none;
+}
+
+.add {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #282c34;
+  color: white;
+  border-radius: 4px;
+}
+
+.add:hover{
+  color: orangered;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  width: 80%;
+}
+
+.SearchContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #3a3f4732;
+  padding: 2rem;
+
+}
+
+.search{
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: #282c34;
+  color: white;
+  border-radius: 4px;
+  font-size: .8rem;
+}
+
+.search:hover{
+  color: orangered;
+}
+.searchbar{
+  border-radius: 10px;
 }
