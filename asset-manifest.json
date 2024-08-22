@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ToDoList-React/static/css/main.f26d84e7.css",
-    "main.js": "/ToDoList-React/static/js/main.8d41c5a2.js",
-    "static/js/453.37753ddd.chunk.js": "/ToDoList-React/static/js/453.37753ddd.chunk.js",
-    "index.html": "/ToDoList-React/index.html",
-    "main.f26d84e7.css.map": "/ToDoList-React/static/css/main.f26d84e7.css.map",
-    "main.8d41c5a2.js.map": "/ToDoList-React/static/js/main.8d41c5a2.js.map",
-    "453.37753ddd.chunk.js.map": "/ToDoList-React/static/js/453.37753ddd.chunk.js.map"
+    "main.css": "/Shopping-Cart---ReactJS/static/css/main.40b2fcb3.css",
+    "main.js": "/Shopping-Cart---ReactJS/static/js/main.021bd732.js",
+    "static/js/453.37753ddd.chunk.js": "/Shopping-Cart---ReactJS/static/js/453.37753ddd.chunk.js",
+    "index.html": "/Shopping-Cart---ReactJS/index.html",
+    "main.40b2fcb3.css.map": "/Shopping-Cart---ReactJS/static/css/main.40b2fcb3.css.map",
+    "main.021bd732.js.map": "/Shopping-Cart---ReactJS/static/js/main.021bd732.js.map",
+    "453.37753ddd.chunk.js.map": "/Shopping-Cart---ReactJS/static/js/453.37753ddd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f26d84e7.css",
-    "static/js/main.8d41c5a2.js"
+    "static/css/main.40b2fcb3.css",
+    "static/js/main.021bd732.js"
   ]
 }
