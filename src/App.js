@@ -57,7 +57,6 @@ function App() {
 
     const DelOptions = {
       method: "DELETE",
-      headers: { "Content-Type": "application/json" },
     };
 
     const deleteUrl = `${API_URL}/${id}`;

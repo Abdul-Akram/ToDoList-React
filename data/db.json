@@ -3,7 +3,12 @@
     {
       "id": 1,
       "checked": false,
-      "text": "Akram"
+      "text": "Coding Excersise"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "text": "Practice Dance"
     }
   ]
 }
